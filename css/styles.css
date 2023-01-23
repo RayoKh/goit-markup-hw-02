@@ -1,0 +1,128 @@
+:root {
+  --iris-color: #4d5ae5;
+  --ocean-color: #404bbf;
+  --navy-blue-color: #2e2f42;
+  --green-color: #31d0aa;
+  --slate-color: #434455;
+  --light-slate-color: #8e8f99;
+  --cornflower-color: #e7e9fc;
+  --cloud-color: #f4f4fd;
+  --navy-blue-modal-color: #2e2f42;
+  --grey-color: #2e2f42;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate-color);
+}
+
+.header-logo {
+  color: var(--iris-color);
+  text-transform: uppercase;
+}
+
+.header-studio {
+  color: var(--navy-blue-color);
+}
+
+.nav-links {
+  color: var(--navy-blue-color);
+  font-weight: 500;
+}
+
+.nav-link {
+  text-transform: none;
+}
+
+.header-address {
+  font-style: normal;
+  color: var(--slate-color);
+  text-decoration: none;
+}
+
+.hero {
+  background-color: var(--grey-color);
+}
+
+.hero-title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+}
+
+.hero-btn {
+  background-color: var(--iris-color);
+  color: #fff;
+}
+
+h2 {
+  color: var(--navy-blue-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+h3 {
+  color: var(--navy-blue-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.team {
+  background-color: var(--cloud-color);
+}
+
+.team-card {
+  background-color: #fff;
+}
+
+footer {
+  background-color: var(--navy-blue-color);
+}
+
+.footer-logo {
+  color: var(--iris-color);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.166;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer-text {
+  color: var(--cornflower-color);
+}
+
+.footer-studio {
+  color: var(--cloud-color);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
