@@ -52,9 +52,20 @@ body {
   text-transform: none;
 }
 
+.nav-link:active {
+  color: var(--ocean-color);
+  font-weight: 500;
+}
+
 .header-address {
   font-style: normal;
   color: var(--slate-color);
+  text-decoration: none;
+}
+
+.header-address:active {
+  font-style: normal;
+  color: var(--ocean-color);
   text-decoration: none;
 }
 
@@ -71,6 +82,12 @@ body {
 
 .hero-btn {
   background-color: var(--iris-color);
+  color: #fff;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--ocean-color);
   color: #fff;
 }
 
@@ -117,6 +134,33 @@ footer {
 
 .footer-studio {
   color: var(--cloud-color);
+}
+
+/* 
+PORTFOLIO
+*/
+
+.filter-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+
+  background: var(--cloud-color);
+  border: 1px solid var(--cornflower-color);
+  border-radius: 4px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: var(--iris-color);
 }
 
 ul {
